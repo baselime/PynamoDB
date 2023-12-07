@@ -7,7 +7,7 @@ install_requires = [
 ]
 
 setup(
-    name='pynamodb',
+    name='baselime-pynamodb',
     version=__import__('pynamodb').__version__,
     packages=find_packages(exclude=('examples', 'tests', 'typing_tests', 'tests.integration',)),
     url='http://jlafon.io/pynamodb.html',
